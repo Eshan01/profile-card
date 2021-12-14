@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
 
@@ -22,19 +25,27 @@
 </head>
 
 <body>
-  <main>
-    <h1>Victor Crest</h1>
-    26
-    London
+  <main class="card" aria-labelledby="card">
+    <img src="./images/bg-pattern-card.svg" alt="Card pattern" class="head-pattern">
+    <img src="./images/image-victor.jpg" class="dp" sizes="32x32" alt="victor's photo">
+   <div class="abt">
+    <h1>Victor Crest</h1><span>26</span>
+    <p class="span">London</p>
+  </div>
 
-    80K
-    Followers
-
-    803K
-    Likes
-
-    1.4K
-    Photos
+    <div class="info">
+     <p> 80K <br>
+     <span> Followers</span>
+    </p>
+     <p> 803K <br>
+     <span>Likes</span>
+    </p>
+  <p>
+      1.4K <br>
+    <span>Photos</span>
+    </p>  
+    </div>
+    
   </main>
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
