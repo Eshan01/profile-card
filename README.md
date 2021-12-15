@@ -29,14 +29,12 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [click here](https://github.com/Eshan01/profile-card)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
@@ -45,13 +43,18 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### What I learned
 
+In this challenge, I learned a lot about positioning background images. At first, it was difficult for me to position images in the background.
 
 ### Continued development
 
+- Background position
+- CSS Grid
+- Flexbox 
+
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Code pen background-position example](https://codepen.io/benfrain/pen/Cctvl) - This example helped me understand background positioning using rem, em, px and %.
+- [Postioning](https://css-tricks.com/almanac/properties/b/background-position/) - This is an amazing article which helped me understand background position.
 
 ## Author
 

@@ -24,11 +24,10 @@ body{
   place-content: center;
   background-color: var(--Dark-cyan);
   background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
-  background-position: top left, bottom right;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size:50%;
+  background-position: top -30rem left -40rem, bottom -32rem right -35rem;
+  background-repeat: no-repeat no-repeat;
 }
+
 h1{
   display: inline-block;
   font-size: inherit;
@@ -72,4 +71,10 @@ span,
   border-top: 1px solid var(--Dark-gray);
   margin-top: 30px;
   padding:20px;
+}
+@media (min-width:1140px){
+  body{
+    background-position: top -35rem left -10rem, bottom -35rem right -8rem;
+  }
+  
 }
